@@ -33,7 +33,12 @@
     <artifactId>javax.servlet-api</artifactId>
     <version>3.1.0</version>
   </dependency>
-</dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.1.9.RELEASE</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <finalName>Version2</finalName>

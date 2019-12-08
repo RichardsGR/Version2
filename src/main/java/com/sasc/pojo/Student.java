@@ -6,9 +6,9 @@ public class Student {
     //姓名
     private String name;
     //学号
-    private String studentID;
+    private String num;
     //手机号码
-    private String phoneNumber;
+    private String phone;
     //QQ号码
     private String qq;
 
@@ -31,20 +31,20 @@ public class Student {
         this.name = name;
     }
 
-    public String getStudentID() {
-        return studentID;
+    public String getNum() {
+        return num;
     }
 
-    public void setStudentID(String studentID) {
-        this.studentID = studentID;
+    public void setNum(String num) {
+        this.num = num;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getQq() {
@@ -53,17 +53,5 @@ public class Student {
 
     public void setQq(String qq) {
         this.qq = qq;
-    }
-    //toString
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", studentID='" + studentID + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", qq='" + qq + '\'' +
-                '}';
     }
 }

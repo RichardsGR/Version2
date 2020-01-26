@@ -12,6 +12,7 @@ public class StudentServiceImpl implements StudentService {
     @Autowired
     StudentMapper studentMapper;
 
+    @Override
     public void add(Student student){
         studentMapper.add(student);
     }

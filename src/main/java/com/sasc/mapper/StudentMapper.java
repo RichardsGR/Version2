@@ -4,7 +4,7 @@ import com.sasc.pojo.Student;
 
 public interface StudentMapper {
 
-     void add(Student student);
+     public void add(Student student);
 
     //...
 }

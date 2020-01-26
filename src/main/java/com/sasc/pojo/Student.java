@@ -11,7 +11,39 @@ public class Student {
     private String phone;
     //QQ号码
     private String qq;
+    //第一轮成绩
+    private int firstRound;
+    //第二轮成绩
+    private int secondRound;
+    //总成绩
+    private int total;
 
+    public String toString(){
+        return "name"+name+"num"+num+"phone"+phone+"qq"+qq;
+    }
+    public int getFirstRound() {
+        return firstRound;
+    }
+
+    public void setFirstRound(int firstRound) {
+        this.firstRound = firstRound;
+    }
+
+    public int getSecondRound() {
+        return secondRound;
+    }
+
+    public void setSecondRound(int secondRound) {
+        this.secondRound = secondRound;
+    }
+
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
     //getter and setter
 
 
